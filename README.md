@@ -1,2 +1,2 @@
 # brucek.github.io
-bruceblog
+brucek.blog
