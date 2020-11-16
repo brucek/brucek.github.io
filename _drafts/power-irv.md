@@ -115,7 +115,7 @@ OK anyways - whatever we call it, the trick is to just pick the winner from the 
 
 # But I thought the Condorcet method doesn't always work?
 
-Wait, what are you, some kind of electo-nerd?  OK, ok, ok, you're right - that's totally true.  Much like the rhythm method, the Condorcet method doesn't always work either.
+Wait, what are you, some kind of electo-nerd?  OK, ok, ok, you're right - that's totally true.  Much like the rhythm method, the Condorcet method doesn't always work.
 
 **What?!?!  How's that?**
 
@@ -135,7 +135,7 @@ The idea is that by running the 3 pairwise elections and taking the highest tota
 
 This is the trick to fixing the center squeeze problem - if either of the regular IRV losers can combine forces to defeat a center-squeezed winner, they should win - and by taking the highest vote total overall, you can see which coalition has the greatest overall support.
 
-\* In case a voter only ranked 1 of the last 3, we just split their vote and count it 1/2 for **both** when their only choice is removed since they gave us no preference
+\* In case a voter only ranked 1 of the last 3 finalists, we just split their vote and count it 1/2 for **both** of the others when their only choice is removed (since they gave us no preference)
 {: small}
 
 \** We do have to worry about a super-rare 2-way tie, but guess what?  We just found the pairwise winner for that scenario too 😉
