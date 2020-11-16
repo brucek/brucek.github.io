@@ -52,3 +52,7 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+brucek:
+  name: brucek
+  web: https://brucekrysiak.com
