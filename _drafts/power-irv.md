@@ -17,8 +17,8 @@ He basically walks through the problem and the easy-to-understand solution:  Ins
 OK, so either you watched the video, or you want me to give you the 411 here because who watches videos really - [ain't nobody got time for that](https://youtu.be/bFEoMO0pc7k).
 
 {:images: class="image-container"}
-![I did my own research](/assets/images/didmyownresearch.png){:class="img-responsive" width="300px"}
-![ain't nobody got time for that](/assets/images/angtft.jpg){:class="img-responsive" width="300px"}
+![I did my own research](/assets/images/ballot/inline/didmyownresearch.png){:class="img-responsive" width="300px"}
+![ain't nobody got time for that](/assets/images/ballot/inline/angtft.jpg){:class="img-responsive" width="300px"}
 {: images}
 
 The long and the short of it is if you are sick of explaining to your 3rd-party friends that voting for Bernie Sanders, or Jo Jorgensen, or Howie Hawkins, or Vermin Supreme is just throwing away their vote and why can't you just get with the program and realize that your ideological purity isn't making a damn bit of difference.
@@ -30,11 +30,13 @@ Go ahead, throw your vote away
 
 OK then - we should just switch over to IRV and everything's all good, right?
 
-If only (sorry Queen Lion 😒).
+If only.
+
+(sorry Queen Lion 😒)
 
 So election nerds like to argue about whose voting method is the biggest... alignment with voters' actual desires, which is most resistant to strategic voting and all sorts of other crazy criteria.
 
-![Single-winner Voting Method Comparison Chart](/assets/images/voting_chart.png){:class="img-responsive"}
+![Single-winner Voting Method Comparison Chart](/assets/images/ballot/inline/voting_chart.png){:class="img-responsive"}
 **Way more detail than needed for normal humans**  
 <sub><sup>[chart and references are at [FairVote](https://archive3.fairvote.org/reforms/instant-runoff-voting/irv-and-the-status-quo/irv-versus-alternative-reforms/single-winner-voting-method-comparison-chart/), who are very hot for IRV as you can see]</sup></sub>
 {: images}
@@ -56,8 +58,13 @@ The problem is basically a result of something called the ["center squeeze" effe
 * if squeezed from both sides
 * by candidates who absorb most of the support from the ends of the political spectrum
 
-![The “Center Squeeze” Effect](/assets/images/center_squeeze_effect_diagram.png){:class="img-responsive"}
+![The “Center Squeeze” Effect](/assets/images/ballot/inline/center_squeeze_effect_diagram.png){:class="img-responsive"}
 {: images}
+
+# Warning: math
+{:small: style="font-size: small;"}
+(kind of)
+{: small}
 
 In this case:
 * `R` has **just** passed `C` in popularity
@@ -65,22 +72,23 @@ In this case:
 * `L` will win
 * despite `C` being the best choice overall
 
-{:small: style="font-size: small;"}
 (We just asserted that more `C` voters prefer `L` to `R` to match the layout of the Center for Election Science video)
 {: small}
 
-And IRV was so promising.  **Ugh.**  OK, so what do we do now?
+# And IRV was so promising...
+
+**Ugh.**  OK, so what do we do now?
 
 This is about the time when usually Approval Voting junkies all jump up to talk about [why Monotonicity is sooooo important](https://electowiki.org/wiki/Monotonicity#2009_Burlington.2C_Vermont_mayoral_election) and how their method never suffers from [Favorite Betrayal](https://electowiki.org/wiki/Favorite_betrayal_criterion) and so we should just shut up and get down with the APP.
 
-![The state of voting reform](/assets/images/distracted_voters.png){:class="img-responsive" width="500px"}
+![The state of voting reform](/assets/images/ballot/inline/distracted_voters.png){:class="img-responsive" width="500px"}
 {: images}
 
 {:center: style="text-align: center;"}
 # Nope!  Bye Felicia
 {: center}
 
-![WTF is Power IRV?](/assets/images/power_skeptical.png){:class="img-responsive" width="300px"}
+![WTF is Power IRV?](/assets/images/ballot/inline/power_skeptical.png){:class="img-responsive" width="300px"}
 {: images}
 
 ## YES.
@@ -91,26 +99,31 @@ This is about the time when usually Approval Voting junkies all jump up to talk 
 
 Let's take a look: Power IRV works exactly like regular IRV *until you get down to the last 3 finalists*.
 
-At this point we have to do something to fix the center squeeze issue, which was the killer for regular IRV.  How do we discover and fix that scenario?
+At this point we have to do something to fix the center squeeze issue, which was the killer for regular IRV.  How do we deal with that?
 
 #### Power to the rescue
 
-So we probably could have called this "IRV + Pairwise Finalists" or something, but what fun is that?  POWER.
+So we probably could have called this "IRV + Pairwise Finalists", or "IRV with a Condorcet Nightcap" or something, but what fun is that?  POWER.
 
-OK anyways - the trick is to just pick the winner from the 3 finalists by finding what is called the [Condorcet winner](https://youtu.be/bXYQPvU_Oao):
+(I didn't think calling it Condorcension was going to go very far either)
+{: small}
 
-* run elections between each pair of candidates
-* if anyone beats both other candidates head-to-head:  congrats!  You win!
+OK anyways - whatever we call it, the trick is to just pick the winner from the 3 finalists by finding what is called the [Condorcet winner](https://youtu.be/bXYQPvU_Oao) (oh, **that's** where those names came from):
+
+* first, run elections between each pair of candidates
+* if anyone beats both both other candidates head-to-head:  congrats!  You win!
 
 # But I thought the Condorcet method doesn't always work?
 
-Wait, what are you, some kind of electo-nerd?  OK, ok, ok, you're right - that's totally true.  The Condorcet method **doesn't** always work.  What?!?!  How's that?
+Wait, what are you, some kind of electo-nerd?  OK, ok, ok, you're right - that's totally true.  Much like the rhythm method, the Condorcet method doesn't always work either.
 
-Sometimes there **is no** Condorcet winner.  
+**What?!?!  How's that?**
 
-It's pretty easy to understand, actually.  Imagine 3 candidates, and it turns out that voters prefer A over B, B over C and C over A (so it's a loop!).  Bummer.
+Yes, Virginia:  sometimes there **is no** Condorcet winner.  
 
-![The Condorcet Paradox](/assets/images/condorcet_paradox.png){:class="img-responsive" width="300px"}
+It turns out to be pretty easy to understand, actually.  Imagine 3 candidates, and now say that voters prefer A over B, B over C and C over A (so it's a loop!).  Bummer.
+
+![The Condorcet Paradox](/assets/images/ballot/inline/condorcet_paradox.png){:class="img-responsive" width="300px"}
 {: images}
 
 But wait - it's OK!  We can fix this too (and in a pretty logical way).  We just throw in a little twist - if we have no clear head-to-head winner, let's:
@@ -118,7 +131,7 @@ But wait - it's OK!  We can fix this too (and in a pretty logical way).  We just
 * tally up the votes in each race<sup>*</sup> (so 3 sets of head-to-head totals)
 * whoever has the highest vote count in any race wins<sup>**</sup>
 
-The idea is that by running the 3 pairwise elections and taking the highest total count, we will pick the best coalition-builder.  If one of the candidates were to drop out, who can build the strongest coalition including their supporters?
+The idea is that by running the 3 pairwise elections and taking the highest total count, we will pick the best coalition-builder.  If one of the candidates were to drop out, which of the others can build the strongest coalition including these orphaned supporters?
 
 This is the trick to fixing the center squeeze problem - if either of the regular IRV losers can combine forces to defeat a center-squeezed winner, they should win - and by taking the highest vote total overall, you can see which coalition has the greatest overall support.
 
@@ -148,15 +161,15 @@ drag the voters ![Voters](/assets/images/ballot/voters.png){:height="20px"} *slo
 {% include iframe.html url="/play/election2.html" %}
 {: election}
 
-Cool, huh?  (Well, OK - the problems with IRV are not so cool.)
+Cool, huh?  (Well, OK - except that the problems with IRV are decidedly *not* so cool.)
 
-Anyways, now go back and see what happens with Power IRV - try dragging the voters ![Voters](/assets/images/ballot/voters.png){:height="20px"} up again after you click on the `PowerIRV` button.  Go ahead.  We'll wait.
+Anyways, now let's go back and see what happens with Power IRV - try dragging the voters ![Voters](/assets/images/ballot/voters.png){:height="20px"} up again after you click on the `PowerIRV` button.  Go ahead.  We'll wait.
 
 (You can also push `reset` if you moved too many things around)
 
 Did you see how Power IRV's minor tweak with the final 3 candidates made all the difference and solved the problems we saw with normal IRV?
 
-![Yeah you did](/assets/images/yeah_you_did.png){:class="img-responsive" width="300px"}
+![Yeah you did](/assets/images/ballot/inline/yeah_you_did.png){:class="img-responsive" width="300px"}
 {: images}
 
 ## Nice.
@@ -178,9 +191,9 @@ Did you see where Borda Count had a reverse spoiler effect? Instead of one good 
 
 Did you try with Power IRV?  If not, go for it.
 
-(Spoiler alert:  voters DGAF about your crappy hexagon candidate's antics.)
+(Spoiler alert:  Power IRV DGAF about your crappy hexagon candidate's antics.)
 
-![Aww yiss](/assets/images/aw-yiss.png){:class="img-responsive" width="300px"}
+![Aww yiss](/assets/images/ballot/inline/aw-yiss.png){:class="img-responsive" width="300px"}
 {: images}
 
 Now let's do a little rewind and look at some revisionist history with the 2016 election.  Let's imagine that instead of FPTP we had rocked it out with Power IRV.
@@ -218,43 +231,53 @@ move Sanders ![Triangle Bernie](/assets/images/ballot/triangle.png){:height="20p
 {% include iframe.html url="/play/election6.html" %}
 {: election}
 
-## OK, why is this really important?
+## OK, but why is all this *really* important?
 
-For years, voting reform has been stuck between two positions:
+For years, voting reform has been stuck between two groups of people:
 
 - **Let's use IRV! YOLO!!**
   - I like to feel good by voting my preferences and getting to support my favorite the most
   - I don't know about IRV's center squeeze problem
-  - I just want to do *anything* to get us unstuck here
+  - I just want to do *anything* to get us unstuck here and IRV has populist mojo
   
 vs.
 
 - **Approval voting is the move**
-  - I am a voting nerd and know about IRV's and favorite betrayal
+  - I am a voting nerd and know about IRV and favorite betrayal
   - I don't mind giving the same score to the candidate I love, the one I like, and the one I hold your nose for
-  - I like fighting an endless battle against people who can't possibly vote the same for Hillary and Bernie
+  - I enjoy fighting an endless battle against people who can't possibly stomach voting the same for Hillary and Bernie
 
-People get all excited about IRV, then they talk to the voting math people who push back on how IRV is terrible and if we're going to go through all the trouble to change, let's change to something that actually improves things significantly.
+People get all excited about IRV, then they end up talking to the voting math people somewhere along the way, and they all push back on how IRV is terrible and if we're going to go through all the trouble to change, let's change to something that *actually* improves things significantly and all the initial excitement drains away like someone said a trip to an IRS tax audit is in your near future.
 
-Then all the other voting method proponents swoop in and now you have a 6-way discussion that winds up with everybody giving up and getting drunk instead.  And here we are.
+And then suddenly all the other voting method proponents swoop in and now you have a 6-way discussion that winds up with everybody giving up and just getting drunk instead.  And here we are.
 
-So it turns out that in the worst case, IRV is about the same as FPTP(!) for reaching voter satisfaction, and it *can* be a little better.  But Approval voting is *much* better.
+![Greta is not amused](/assets/images/ballot/inline/amused_greta.jpg){:class="img-responsive" width="300"}
+{: images}
+
+So to fight off the math harpies, let's go a little deeper here.  It turns out that in the worst case, IRV is about the same as FPTP(!) for reaching voter satisfaction, and it *can* be a little better.  But Approval voting is *much* better.
 
 Here's a crazy chart [(source)](https://electology.org/tactical-voting-basics) showing the results of 2.2 million simulations. A huge variety of scenarios were tested. All-honest voters. All-strategic voters. Half-honest, half-strategic. Voters who know each others' preferences. Voters who don't know each others' preferences. Voters who only sorta-know each others' preferences. And so on. You can tell that a real mathematician made this chart, because it's makin' my eyes bleed - the important thing is that blue bars to the right are better:
 
-![So much simulation](/assets/images/simulation_comparison.png){:class="img-responsive"}
+![So much simulation](/assets/images/ballot/inline/simulation_comparison.png){:class="img-responsive"}
 {: images}
 
-Now, I haven't done the math here, but I'd be willing to wager that if good old William Poundstone ran Power IRV through his Bayesian Regret-ometer and updated his chart, we would find Power IRV in the dominant position **and** we could finally build some consensus to finally *make a change*:
+Now, I haven't done the math here, but if good old William Poundstone ran Power IRV through his Bayesian Regret-ometer
 
-![So much simulation](/assets/images/bayesian_with_PIRV.png){:class="img-responsive"}
+(what is Bayesian Regret?  It's like the computational inverse of happiness.  Yeah, go and [read up on that](https://www.rangevoting.org/BayRegDum.html) why don't you?  You'll get it *right away*)
+{: small}
+
+and updated his chart, I'd be willing to bet that we would find Power IRV in the dominant position **and** we could finally build some consensus to finally *make a change* and dump this #$*!@ FPTP voting BS once and for all:
+
+![So much simulation](/assets/images/ballot/inline/bayesian_with_PIRV.png){:class="img-responsive"}
 {: images}
 Suck it Score Voting - good luck rating every candidate from 0-100(!)
 {: image-caption}
 
 ## Convinced yet?
 
-Yeah you are.  Let's do this.  Tell your friends, tell your Congresspeople, push for Power IRV in your local elections and with voting reform organizations such as [FairVote](https://www.fairvote.org/).
+Yeah you are.  Let's do this.
+
+Tell your friends, tell your Congresspeople, push for Power IRV in your local elections and with voting reform organizations such as [FairVote](https://www.fairvote.org/).
 
 Or if you're still not there, I'd love to hear from you.  Drop me an email at the address at the bottom of the page with "Power IRV" somewhere in the subject and let's talk.
 
