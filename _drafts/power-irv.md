@@ -312,4 +312,4 @@ Meanwhile, my fingers are crossed 🤞 that this idea gets us one step closer ag
 
 Oh, the audacity..!  😉
 
-Be well, my friends.
+Be well, my friends.  Happy voting!
