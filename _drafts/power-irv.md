@@ -4,15 +4,15 @@ title:  "Power IRV, or: How I Learned to Stop Worrying and Love Ranked Choice Vo
 author: brucek
 categories: voting
 ---
-Politics sucks.  People are shouting past each other rather than reaching for common ground and commonsense solutions.
+Politics today sucks.  People are shouting past each other rather than reaching for common ground and commonsense solutions.
 
 One thing that especially sucks is the "First Past the Post" (FPTP) voting system.  One man one vote woohoo!
 
-Umm, no.  If you don't know about the many problems with FPTP, watch this video from CGP Grey:
+Umm, no.  If you don't know about the many problems with FPTP, watch this video from CGP Grey, but it boils down to  **the spoiler effect**, ie. when a popular 3rd-party candidate enters the race and siphons votes from one of the major party frontrunners, causing them to lose (instead of their brilliant win if the spoiler candidate had *just stayed home*):
 
 {% include youtube.html id="3Y3jE3B8HsE" %}
 
-He basically walks through the problems and the easy-to-understand solution:  Instant Runoff Voting (IRV) - he calls it "the Alternative Vote" (totally *not* confusing), but they are the same thing.
+He basically walks through the problem and the easy-to-understand solution:  Instant Runoff Voting (IRV) - he calls it "the Alternative Vote" (totally *not* confusing), but they are the same thing.
 
 OK, so either you watched the video, or you want me to give you the 411 here because who watches videos really - [ain't nobody got time for that](https://youtu.be/bFEoMO0pc7k).
 
@@ -30,7 +30,7 @@ Go ahead, throw your vote away
 
 OK then - we should just switch over to IRV and everything's all good, right?
 
-If only.
+If only (sorry Queen Lion 😒).
 
 So election nerds like to argue about whose voting method is the biggest... alignment with voters' actual desires, which is most resistant to strategic voting and all sorts of other crazy criteria.
 
@@ -218,9 +218,43 @@ move Sanders ![Triangle Bernie](/assets/images/ballot/triangle.png){:height="20p
 {% include iframe.html url="/play/election6.html" %}
 {: election}
 
+## OK, why is this really important?
+
+For years, voting reform has been stuck between two positions:
+
+- **Let's use IRV! YOLO!!**
+  - I like to feel good by voting my preferences and getting to support my favorite the most
+  - I don't know about IRV's center squeeze problem
+  - I just want to do *anything* to get us unstuck here
+  
+vs.
+
+- **Approval voting is the move**
+  - I am a voting nerd and know about IRV's and favorite betrayal
+  - I don't mind giving the same score to the candidate I love, the one I like, and the one I hold your nose for
+  - I like fighting an endless battle against people who can't possibly vote the same for Hillary and Bernie
+
+People get all excited about IRV, then they talk to the voting math people who push back on how IRV is terrible and if we're going to go through all the trouble to change, let's change to something that actually improves things significantly.
+
+Then all the other voting method proponents swoop in and now you have a 6-way discussion that winds up with everybody giving up and getting drunk instead.  And here we are.
+
+So it turns out that in the worst case, IRV is about the same as FPTP(!) for reaching voter satisfaction, and it *can* be a little better.  But Approval voting is *much* better.
+
+Here's a crazy chart [(source)](https://electology.org/tactical-voting-basics) showing the results of 2.2 million simulations. A huge variety of scenarios were tested. All-honest voters. All-strategic voters. Half-honest, half-strategic. Voters who know each others' preferences. Voters who don't know each others' preferences. Voters who only sorta-know each others' preferences. And so on. You can tell that a real mathematician made this chart, because it's makin' my eyes bleed - the important thing is that blue bars to the right are better:
+
+![So much simulation](/assets/images/simulation_comparison.png){:class="img-responsive"}
+{: images}
+
+Now, I haven't done the math here, but I'd be willing to wager that if good old William Poundstone ran Power IRV through his Bayesian Regret-ometer and updated his chart, we would find Power IRV in the dominant position **and** we could finally build some consensus to finally *make a change*:
+
+![So much simulation](/assets/images/bayesian_with_PIRV.png){:class="img-responsive"}
+{: images}
+Suck it Score Voting - good luck rating every candidate from 0-100(!)
+{: image-caption}
+
 ## Convinced yet?
 
-Yeah you are.  Tell your friends, tell your Congresspeople, push for Power IRV in your local elections and with voting reform organizations such as [FairVote](https://www.fairvote.org/).
+Yeah you are.  Let's do this.  Tell your friends, tell your Congresspeople, push for Power IRV in your local elections and with voting reform organizations such as [FairVote](https://www.fairvote.org/).
 
 Or if you're still not there, I'd love to hear from you.  Drop me an email at the address at the bottom of the page with "Power IRV" somewhere in the subject and let's talk.
 
