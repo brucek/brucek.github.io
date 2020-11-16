@@ -437,12 +437,21 @@ Election.powerIrv = function(model, options){
 	var winners = results.winners.slice(0, 3).map(item => item[0]);
 
 	var results = powerIrvCondorcet(model, options, winners);
-	var finalWinner = results.winners[0];
 
-	var color = _colorWinner(results.model, finalWinner);
-	results.text += "</span>";
-	results.text += "<br>";
-	results.text += "<b style='color:"+color+"'>"+finalWinner.toUpperCase()+"</b> WINS";
+	if (results.winners.length == 1) {
+		var finalWinner = results.winners[0];
+		var color = _colorWinner(results.model, finalWinner);
+		results.text += "</span>";
+		results.text += "<br>";
+		results.text += "<b style='color:" + color + "'>" + finalWinner.toUpperCase() + "</b> WINS";
+	} else {
+		results.text += "</span>";
+		for (var winner of results.winners) {
+			var color = _colorWinner(results.model, winner);
+			results.text += "<b style='color:" + color + "'>" + winner.toUpperCase() + "</b> ";
+		}
+		results.text += " TIES";
+	}
 	results.model.caption.innerHTML = results.text;
 };
 
@@ -495,7 +504,7 @@ var _tally = function(model, tallyFunc){
 	for(var i=0; i<ballots.length; i++){
 		tallyFunc(tally, ballots[i]);
 	}
-	
+
 	// Return it.
 	return tally;
 
