@@ -279,7 +279,7 @@ And look - Score Voting isn't always necessarily that great either<sup>*</sup>. 
 
 In this case 2/3 of voters dislike both candidates, but definitely dislike Square ![Suzy Square](/assets/images/ballot/square.png){:height="20px"}: much less. However, 1/3 of voters LOVE Triangle ![Tracy Triangle](/assets/images/ballot/triangle.png){:height="20px"} and HATE Square ![Suzy Square](/assets/images/ballot/square.png){:height="20px"}:.
 
-Here, Score gives it to Triangle ![Tracy Triangle](/assets/images/ballot/triangle.png){:height="20px"}, while every *other* voting method says Square ![Suzy Square](/assets/images/ballot/square.png){:height="20px"}: should win.  Is Triangle ![Tracy Triangle](/assets/images/ballot/triangle.png){:height="20px"} the right answer?  Power IRV (and most other voting methods) say no, and it's hard to argue that Triangle ![Tracy Triangle](/assets/images/ballot/triangle.png){:height="20px"} winning is really a better outcome here.
+Here, Score gives it to Triangle ![Tracy Triangle](/assets/images/ballot/triangle.png){:height="20px"}, while every *other* voting method says Square ![Suzy Square](/assets/images/ballot/square.png){:height="20px"}: should win.  Is Triangle ![Tracy Triangle](/assets/images/ballot/triangle.png){:height="20px"} the right answer?  Power IRV (and most other voting methods) say no, and it's hard to argue that Triangle ![Tracy Triangle](/assets/images/ballot/triangle.png){:height="20px"} winning is really a better outcome here - this is very clearly **not** "majority rule".
 
 {:election: class="sim-test"}
 should fanatics override a less-loved but more representative candidate?
