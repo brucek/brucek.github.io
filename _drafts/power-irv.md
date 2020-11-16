@@ -154,7 +154,7 @@ Anyways, now go back and see what happens with Power IRV - try dragging the vote
 
 (You can also push `reset` if you moved too many things around)
 
-Did you see how Power IRV's minor tweak solved all the problems we saw with normal IRV?
+Did you see how Power IRV's minor tweak with the final 3 candidates made all the difference and solved the problems we saw with normal IRV?
 
 ![Yeah you did](/assets/images/yeah_you_did.png){:class="img-responsive" width="300px"}
 {: images}
