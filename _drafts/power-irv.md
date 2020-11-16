@@ -79,13 +79,16 @@ In this case:
 
 **Ugh.**  OK, so what do we do now?
 
-This is about the time when usually Approval Voting junkies all jump up to talk about [why Monotonicity is sooooo important](https://electowiki.org/wiki/Monotonicity#2009_Burlington.2C_Vermont_mayoral_election) and how their method never suffers from [Favorite Betrayal](https://electowiki.org/wiki/Favorite_betrayal_criterion) and so we should just shut up and get down with the APP.
+This is about the time when usually Approval Voting<sup>*</sup> junkies all jump up to talk about [why Monotonicity is sooooo important](https://electowiki.org/wiki/Monotonicity#2009_Burlington.2C_Vermont_mayoral_election) and how their method never suffers from [Favorite Betrayal](https://electowiki.org/wiki/Favorite_betrayal_criterion) and so we should just shut up and get down with the APP.
 
-![The state of voting reform](/assets/images/ballot/inline/distracted_voters.png){:class="img-responsive" width="500px"}
-{: images}
+\* Approval voting: all voters vote for all candidates they find acceptable.  Count up all the votes - highest total wins.
+{: small}
+
+&nbsp;
+{: center}
 
 {:center: style="text-align: center;"}
-# Nope!  Bye Felicia
+# Nope!  Bye Felicia.
 {: center}
 
 ![WTF is Power IRV?](/assets/images/ballot/inline/power_skeptical.png){:class="img-responsive" width="300px"}
@@ -94,8 +97,10 @@ This is about the time when usually Approval Voting junkies all jump up to talk 
 ## YES.
 {: center}
 
+![The state of voting reform](/assets/images/ballot/inline/distracted_voters.png){:class="img-responsive" width="500px"}
+{: images}
+
 # Sorry, Approval Voting:  Power IRV is the New Hotness
-{: center}
 
 Let's take a look: Power IRV works exactly like regular IRV *until you get down to the last 3 finalists*.
 
