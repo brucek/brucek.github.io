@@ -246,7 +246,7 @@ For years, voting reform has been stuck between two groups of people:
 - **Let's use IRV! YOLO!!**
   - I like to feel good by voting my preferences and getting to support my favorite the most
   - I don't know about IRV's center squeeze problem
-  - I just want to do *anything* to get us unstuck here and IRV has populist mojo
+  - I just want to do *anything* to get us unstuck here and IRV has that mainstream mojo
   
 vs.
 
@@ -269,19 +269,36 @@ Here's a crazy chart [(source)](https://electology.org/tactical-voting-basics) s
 ![So much simulation](/assets/images/ballot/inline/simulation_comparison.png){:class="img-responsive"}
 {: images}
 
-It's clearly unfortunate as well that being a math dude he ranked the Simplicity axis on how simple it was for him to compute, and not how simple it is for normal humans to understand how to fill out their ballot.  I'm looking at you, Score Voting.
+It's clearly unfortunate as well that being a math dude he ranked the Simplicity axis on how simple it was for *him to compute*, and not how simple it is for *normal humans* to understand how to fill out their ballot.  I'm looking at you, Score Voting.
 
-Anyways now, I haven't done the math here, but if good old William Poundstone ran Power IRV through his Bayesian Regret-ometer and updated his chart
+# Score Voting has problems too
+And look - Score Voting isn't always necessarily that great either<sup>*</sup>.  Check out this scenario:
 
-(what is Bayesian Regret?  It's like the computational inverse of happiness.  Yeah, go and [read up on that](https://www.rangevoting.org/BayRegDum.html) why don't you?  You'll get it *right away*)
+\* not to mention the whole "try and figure out how to rank everybody on a scale with too many choices" thing...  Did I get it right?  What if I scored these guys too close?  Or not close enough?  Now try that with 5 or 10 different candidates - good luck
 {: small}
 
-...I'd be willing to bet that we would find Power IRV in the dominant satisfaction position **and** we could finally build some consensus to actually *make a change* and dump this #$*!@ FPTP voting BS once and for all:
+In this case 2/3 of voters dislike both candidates, but definitely dislike Square ![Suzy Square](/assets/images/ballot/square.png){:height="20px"}: much less. However, 1/3 of voters LOVE Triangle ![Tracy Triangle](/assets/images/ballot/triangle.png){:height="20px"} and HATE Square ![Suzy Square](/assets/images/ballot/square.png){:height="20px"}:.
+
+Here, Score gives it to Triangle ![Tracy Triangle](/assets/images/ballot/triangle.png){:height="20px"}, while every *other* voting method says Square ![Suzy Square](/assets/images/ballot/square.png){:height="20px"}: should win.  Is Triangle ![Tracy Triangle](/assets/images/ballot/triangle.png){:height="20px"} the right answer?  Power IRV (and most other voting methods) say no, and it's hard to argue that Triangle ![Tracy Triangle](/assets/images/ballot/triangle.png){:height="20px"} winning is really a better outcome here.
+
+{:election: class="sim-test"}
+should fanatics override a less-loved but more representative candidate?
+{: caption}
+{% include iframe.html url="/play/election7.html" %}
+{: election}
+
+Anyways - I haven't done the math here, but if good old William Poundstone ran Power IRV through his Bayesian Regret-ometer<sup>*</sup> and updated his chart
+
+\* (what is Bayesian Regret?  It's like the computational inverse of happiness.  Yeah, go and [read up on that](https://www.rangevoting.org/BayRegDum.html) why don't you?  You'll get it *right away*)
+{: small}
+
+...I'd be willing to bet that we would find Power IRV in the dominant satisfaction position **and** we could finally build some consensus to actually *make a change* and dump this stupid FPTP voting BS once and for all:
 
 ![So much simulation](/assets/images/ballot/inline/bayesian_with_PIRV.png){:class="img-responsive"}
 {: images}
 Suck it Score Voting - and good luck rating every candidate from 0-100(!) anyways
 {: image-caption}
+
 
 ## Convinced yet?
 
