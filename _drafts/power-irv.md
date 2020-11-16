@@ -77,7 +77,7 @@ Sorry Approval Voting:  Power IRV is the New Hotness. Let's take a look:
 
 So Power IRV works exactly like IRV *until you get down to the last 3 finalists*.
 
-At this point we have to do something to fix the center squeeze issue, which was the killer for regular IRV.  How can we discover and fix that scenario?
+At this point we have to do something to fix the center squeeze issue, which was the killer for regular IRV.  How do we discover and fix that scenario?
 
 #### Power to the rescue
 
@@ -107,7 +107,7 @@ But wait - it's OK!  We can fix this too (and in a pretty logical way).  If we h
 
 The idea is that by running the 3 pairwise elections and taking the highest total count, we will pick the best coalition-builder.  If one of the candidates were to drop out, who can build the strongest coalition including their supporters?
 
-This is the trick to fixing the center squeeze problem - if either of the IRV losers can combine forces to defeat a center-squeezed winner, they should win - and by taking the highest vote total overall, you see which coalition has the greatest overall support.
+This is the trick to fixing the center squeeze problem - if either of the IRV losers can combine forces to defeat a center-squeezed winner, they should win - and by taking the highest vote total overall, you can see which coalition has the greatest overall support.
 
 <sub><sup>* In case a voter only ranked 1 of the last 3, we just split their vote and count it 1/2 for **both** when their only choice is removed since they gave us no preference</sup></sub>  
 <sub><sup>** We do have to worry about a 2-way tie, but guess what?  We just found the pairwise winner for that scenario too 😉</sup></sub>
