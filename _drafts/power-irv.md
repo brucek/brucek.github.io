@@ -21,7 +21,7 @@ OK, so either you watched the video, or you want me to give you the 411 here bec
 ![ain't nobody got time for that](/assets/images/ballot/inline/angtft.jpg){:class="img-responsive" width="300px"}
 {: images}
 
-The long and the short of it is if you are sick of explaining to your 3rd-party friends that voting for Bernie Sanders, or Jo Jorgensen, or Howie Hawkins, or Vermin Supreme is just throwing away their vote and why can't you just get with the program and realize that your ideological purity isn't making a damn bit of difference.
+The long and the short of it is if you are sick of explaining to your 3rd-party friends that voting for Bernie Sanders, or Jo Jorgensen, or Howie Hawkins, or Vermin Supreme is just throwing away your vote and why can't you just get with the program and realize that your ideological purity isn't making a damn bit of difference.
 
 {% include youtube.html id="mPqRirDphuc" %}
 {:image-caption: class="image-caption" style="text-align: center;"}
@@ -161,7 +161,10 @@ drag the voters ![Voters](/assets/images/ballot/voters.png){:height="20px"} *slo
 {% include iframe.html url="/play/election2.html" %}
 {: election}
 
-Cool, huh?  (Well, OK - except that the problems with IRV are decidedly *not* so cool.)
+Cool, huh?
+
+(Well, OK - except that the problems with IRV are decidedly *not* so cool.)
+{: small}
 
 Anyways, now let's go back and see what happens with Power IRV - try dragging the voters ![Voters](/assets/images/ballot/voters.png){:height="20px"} up again after you click on the `PowerIRV` button.  Go ahead.  We'll wait.
 
@@ -247,7 +250,7 @@ vs.
   - I don't mind giving the same score to the candidate I love, the one I like, and the one I hold your nose for
   - I enjoy fighting an endless battle against people who can't possibly stomach voting the same for Hillary and Bernie
 
-People get all excited about IRV, then they end up talking to the voting math people somewhere along the way, and they all push back on how IRV is terrible and if we're going to go through all the trouble to change, let's change to something that *actually* improves things significantly and all the initial excitement drains away like someone said a trip to an IRS tax audit is in your near future.
+People get all excited about IRV, then they end up talking to the voting math people somewhere along the way, and they all push back on how IRV is terrible and if we're going to go through all the trouble to change, let's change to something that *actually* improves things significantly and all the initial excitement drains away like someone told them they're about to be stuck on an 8-hour car ride with a group of Crossfit vegan anti-vaxxers.
 
 And then suddenly all the other voting method proponents swoop in and now you have a 6-way discussion that winds up with everybody giving up and just getting drunk instead.  And here we are.
 
@@ -256,21 +259,23 @@ And then suddenly all the other voting method proponents swoop in and now you ha
 
 So to fight off the math harpies, let's go a little deeper here.  It turns out that in the worst case, IRV is about the same as FPTP(!) for reaching voter satisfaction, and it *can* be a little better.  But Approval voting is *much* better.
 
-Here's a crazy chart [(source)](https://electology.org/tactical-voting-basics) showing the results of 2.2 million simulations. A huge variety of scenarios were tested. All-honest voters. All-strategic voters. Half-honest, half-strategic. Voters who know each others' preferences. Voters who don't know each others' preferences. Voters who only sorta-know each others' preferences. And so on. You can tell that a real mathematician made this chart, because it's makin' my eyes bleed - the important thing is that blue bars to the right are better:
+Here's a crazy chart [(source)](https://electology.org/tactical-voting-basics) showing the results of 2.2 million simulations. A huge variety of scenarios were tested. All-honest voters. All-strategic voters. Half-honest, half-strategic. Voters who know each others' preferences. Voters who don't know each others' preferences. Voters who only sorta-know each others' preferences. And so on. You can tell that a real mathematician made this chart, because it makes your eyes bleed - the really important thing though is that blue bars further to the right are better:
 
 ![So much simulation](/assets/images/ballot/inline/simulation_comparison.png){:class="img-responsive"}
 {: images}
 
-Now, I haven't done the math here, but if good old William Poundstone ran Power IRV through his Bayesian Regret-ometer
+It's clearly unfortunate as well that being a math dude he ranked the Simplicity axis on how simple it was for him to compute, and not how simple it is for normal humans to understand how to fill out their ballot.  I'm looking at you, Score Voting.
+
+Anyways now, I haven't done the math here, but if good old William Poundstone ran Power IRV through his Bayesian Regret-ometer and updated his chart
 
 (what is Bayesian Regret?  It's like the computational inverse of happiness.  Yeah, go and [read up on that](https://www.rangevoting.org/BayRegDum.html) why don't you?  You'll get it *right away*)
 {: small}
 
-and updated his chart, I'd be willing to bet that we would find Power IRV in the dominant position **and** we could finally build some consensus to finally *make a change* and dump this #$*!@ FPTP voting BS once and for all:
+...I'd be willing to bet that we would find Power IRV in the dominant satisfaction position **and** we could finally build some consensus to actually *make a change* and dump this #$*!@ FPTP voting BS once and for all:
 
 ![So much simulation](/assets/images/ballot/inline/bayesian_with_PIRV.png){:class="img-responsive"}
 {: images}
-Suck it Score Voting - good luck rating every candidate from 0-100(!)
+Suck it Score Voting - and good luck rating every candidate from 0-100(!) anyways
 {: image-caption}
 
 ## Convinced yet?
