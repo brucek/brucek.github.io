@@ -1,3 +1,7 @@
+body {
+  font-size: large;
+}
+
 .youtube-wrapper {
   text-align: center;
   margin: 50px 0;
@@ -6,4 +10,52 @@
 .image-container {
   text-align: center;
   margin: 50px 0;
+}
+
+.image-caption {
+  font-size: small;
+  margin: -40px auto 40px;
+}
+
+.sim-intro, .sim-ballot, .sim-test, .sim-sandbox{
+  margin: 0 auto;
+}
+.sim-intro{
+  width: 600px;
+}
+.sim-ballot{
+  width: 670px;
+  margin: 35px auto 50px auto;
+}
+.sim-test {
+  width: 800px;
+  margin: auto auto 40px auto;
+}
+
+p.caption-test{
+  font-weight: bold;
+  font-size: 1.2em;
+  line-height: 1.4em;
+}
+
+#sandbox{
+  background: #EFE9D5;
+  overflow:hidden;
+  margin-top: 50px;
+  border-bottom: 5px solid rgba(0,0,0,0.2);
+  padding: 30px 0;
+}
+.sim-sandbox{
+  width: 800px;
+}
+.sim-sandbox iframe{
+  background:#fff;
+  border:20px solid #fff;
+}
+#end{
+  font-size: 18px;
+  line-height: 1.5em;
+  background: #222;
+  padding: 30px 0;
+  overflow: hidden;
 }
