@@ -193,7 +193,7 @@ Let's see what would have happened if Bernie could have run as a 3rd candidate. 
 
 a guesstimated model of the 2016 US election?
 {: caption}
-how Clinton ![Four Square Hillary](/assets/images/ballot/square.png){:height="20px"} wins Approval, Trump ![Trumpagon](/assets/images/ballot/hexagon.png){:height="20px"} wins FPTP and IRV, and Sanders ![Triangle Bernie](/assets/images/ballot/triangle.png){:height="20px"} wins Power IRV
+how Clinton ![Four Square Hillary](/assets/images/ballot/square.png){:height="20px"} ties Approval and IRV, Trump ![Trumpagon](/assets/images/ballot/hexagon.png){:height="20px"} wins FPTP and Score, and Sanders ![Triangle Bernie](/assets/images/ballot/triangle.png){:height="20px"} wins Power IRV:
 
 {% include iframe.html url="/play/election5.html" %}
 {: election}
