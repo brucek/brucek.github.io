@@ -279,7 +279,7 @@ And look - Score Voting isn't always necessarily that great either<sup>*</sup>. 
 
 In this case 2/3 of voters dislike both candidates, but definitely dislike Square ![Suzy Square](/assets/images/ballot/square.png){:height="20px"}: much less. However, 1/3 of voters LOVE Triangle ![Tracy Triangle](/assets/images/ballot/triangle.png){:height="20px"} and HATE Square ![Suzy Square](/assets/images/ballot/square.png){:height="20px"}:.
 
-Here, Score gives it to Triangle ![Tracy Triangle](/assets/images/ballot/triangle.png){:height="20px"}, while every *other* voting method says Square ![Suzy Square](/assets/images/ballot/square.png){:height="20px"}: should win.  Is Triangle ![Tracy Triangle](/assets/images/ballot/triangle.png){:height="20px"} the right answer?  Power IRV (and most other voting methods) say no, and it's hard to argue that Triangle ![Tracy Triangle](/assets/images/ballot/triangle.png){:height="20px"} winning is really a better outcome here - this is very clearly **not** "majority rule".
+Here, Score gives it to Triangle ![Tracy Triangle](/assets/images/ballot/triangle.png){:height="20px"}, while every *other* voting method says Square ![Suzy Square](/assets/images/ballot/square.png){:height="20px"}: should win.  Is Triangle ![Tracy Triangle](/assets/images/ballot/triangle.png){:height="20px"} the right answer?  It's very hard to argue that Triangle ![Tracy Triangle](/assets/images/ballot/triangle.png){:height="20px"} winning is a better outcome here - this is very clearly **not** "majority rule".  In fact, exactly the opposite.
 
 {:election: class="sim-test"}
 should fanatics override a less-loved but more representative candidate?
@@ -292,7 +292,7 @@ Anyways - I haven't done the math on this, but if good old William Poundstone ra
 \* (what is Bayesian Regret?  It's like the computational inverse of happiness.  Yeah, go and [read up on that](https://www.rangevoting.org/BayRegDum.html) why don't you?  You'll get it *right away*)
 {: small}
 
-...I'd be willing to bet that we would find Power IRV in the dominant satisfaction position **and** we could finally build some consensus to actually *make a change* and dump this stupid FPTP voting BS once and for all:
+...I'd be willing to bet that we would find Power IRV beats out these other chump voting methods and we could finally build some consensus to actually *make a change* and dump this stupid FPTP voting BS once and for all:
 
 ![So much simulation](/assets/images/ballot/inline/bayesian_with_PIRV.png){:class="img-responsive"}
 {: images}
