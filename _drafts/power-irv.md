@@ -252,7 +252,7 @@ vs.
 
 - **Approval voting is the move**
   - I am a voting nerd and know about IRV and favorite betrayal
-  - I don't mind giving the same score to the candidate I love, the one I like, and the one I hold your nose for
+  - I don't mind giving the same score to the candidate I love, the one I like, and the one I hold my nose for
   - I enjoy fighting an endless battle against people who can't possibly stomach voting the same for Hillary and Bernie
 
 People get all excited about IRV, then they end up talking to the voting math people somewhere along the way, and they all push back on how IRV is terrible and if we're going to go through all the trouble to change, let's change to something that *actually* improves things significantly and all the initial excitement drains away like someone told them they're about to be stuck on an 8-hour car ride with a group of Crossfit vegan anti-vaxxers.
