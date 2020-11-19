@@ -287,7 +287,7 @@ should fanatics override a less-loved but more representative candidate?
 {% include iframe.html url="/play/election7.html" %}
 {: election}
 
-Anyways - I haven't done the math on this, but if good old William Poundstone ran Power IRV through his Bayesian Regret-ometer<sup>*</sup> and updated his chart
+Anyways - I haven't done the math on this, but if good old Warren D. Smith ran Power IRV through his Bayesian Regret-ometer<sup>*</sup> and updated his chart
 
 \* (what is Bayesian Regret?  It's like the computational inverse of happiness.  Yeah, go and [read up on that](https://www.rangevoting.org/BayRegDum.html) why don't you?  You'll get it *right away*)
 {: small}
