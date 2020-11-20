@@ -2,7 +2,10 @@
 layout: post
 title:  "Power IRV, or: How I Learned to Stop Worrying and Love Ranked Choice Voting"
 description: "This small tweak to Instant Runoff Voting makes Power IRV the clear winner in the voting reform sweepstakes"
-image: /assets/images/ballot/inline/distracted_voters.png
+image:
+  path: /assets/images/ballot/inline/distracted_voters.png
+  height: 662
+  width: 988
 author: brucek
 categories: voting
 ---
