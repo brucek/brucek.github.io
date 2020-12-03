@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Intro: How to Escape the Two-Party Political Doom Loop"
+title:  "Power IRV - Intro: How to Escape the Two-Party Political Doom Loop (part 1)"
 description: "First-Past The Post voting (you vote for only one candidate) is the root cause of our political dysfunction, 2-party lock-in, and negative and obstructionist campaigning and governance.  Away with you!"
 image:
   path: /assets/images/ballot/inline/distracted_voters.png
@@ -8,6 +8,7 @@ image:
   width: 988
 author: brucek
 categories: voting
+date: 2020-12-02 22:30:00 -08:00
 ---
 This is the first of a 4-part series on voting reform:
 
@@ -16,7 +17,7 @@ This is the first of a 4-part series on voting reform:
 - [Power IRV (part 3)](power-irv-pt3.html) - Why Power IRV beats out all other voting systems
 - [Power IRV (part 4)](power-irv-pt4.html) - Appendix:  FAQs and Followups
 
-If you already know about FPTP voting and why dropping it is the best thing we can do to escape the two-party doom loop and fix politics & government, jump ahead to [Power IRV (part 2)](power-irv-pt2.html).
+If you already know about First Past the Post (aka Plurality) voting and why dropping it is the best thing we can do to escape the Two-Party Doom Loop and fix politics & government, jump ahead to [Power IRV (part 2)](power-irv-pt2.html).
 
 <br/>
 
@@ -27,9 +28,9 @@ If you already know about FPTP voting and why dropping it is the best thing we c
 
 Seriously?!?!  Politics today has devolved into an interminable cesspool.  People are shouting past each other rather than reaching for common ground and commonsense solutions.
 
-And the thing that drives it all is the "First Past the Post" (FPTP) voting system.
+And the thing that drives it all is the "First Past the Post" (FPTP) voting system (aka Plurality Voting).
 
-Quick review - what is First Past the Post voting?  It's just how our Presidential (and most other US elections') voting system works today:
+Quick review - what is FPTP/Plurality voting?  It's just how our Presidential (and most other US elections') voting system works today:
 
 1. You vote for only one candidate
 2. All votes are totalled up

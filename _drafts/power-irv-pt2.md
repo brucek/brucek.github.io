@@ -8,6 +8,7 @@ image:
   width: 988
 author: brucek
 categories: voting
+date: 2020-12-02 22:45:00 -08:00
 ---
 
 This is the second of a 4-part series on voting reform:
