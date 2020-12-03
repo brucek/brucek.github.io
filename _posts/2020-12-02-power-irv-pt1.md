@@ -1,107 +1,137 @@
 ---
 layout: post
-title:  "Power IRV - Intro: How to Escape the Two-Party Political Doom Loop (part 1)"
-description: "First-Past The Post voting (you vote for only one candidate) is the root cause of our political dysfunction, 2-party lock-in, and negative and obstructionist campaigning and governance.  Away with you!"
+title:  "Power IRV, or: How I Learned to Stop Worrying and Love Ranked Choice Voting (part 1)"
+description: "This small tweak to Instant Runoff Voting makes Power IRV the clear winner in the voting reform sweepstakes"
 image:
   path: /assets/images/ballot/inline/distracted_voters.png
   height: 662
   width: 988
 author: brucek
 categories: voting
-date: 2020-12-02 22:30:00 -08:00
+date: 2020-12-02 22:45:00 -08:00
 ---
-This is the first of a 4-part series on voting reform:
 
-- [Power IRV (part 1)](power-irv-pt1.html) - Intro: How to Escape the Two-Party Political Doom Loop (you are here)
-- [Power IRV (part 2)](power-irv-pt2.html) - Power IRV, or: How I Learned to Stop Worrying and Love Ranked Choice Voting
-- [Power IRV (part 3)](power-irv-pt3.html) - Why Power IRV beats out all other voting systems
-- [Power IRV (part 4)](power-irv-pt4.html) - Appendix:  FAQs and Followups
+This is the second post in a series on voting reform:
 
-If you already know about First Past the Post (aka Plurality) voting and why dropping it is the best thing we can do to escape the Two-Party Doom Loop and fix politics & government, jump ahead to [Power IRV (part 2)](power-irv-pt2.html).
+- [Power IRV (intro)](power-irv-intro.html) - How to Escape the Two-Party Political Doom Loop
+- [Power IRV (part 1)](power-irv-pt1.html) - Power IRV, or: How I Learned to Stop Worrying and Love Ranked Choice Voting (you are here)
+- [Power IRV (part 2)](power-irv-pt2.html) - Why Power IRV beats out all other voting systems
+- [Power IRV (appendix)](power-irv-appendix.html) - Appendix:  FAQs and Followups / Full Walkthrough
+
+If you're not sure what our current FPTP voting system is or why it needs to go, get your learn on with [Power IRV (intro)](power-irv-intro.html).  Otherwise, read on!
 
 <br/>
 
 -----------
 <br/>
 
-## What's the problem?
+## The best alternative to FPTP
 
-Seriously?!?!  Politics today has devolved into an interminable cesspool.  People are shouting past each other rather than reaching for common ground and commonsense solutions.
-
-And the thing that drives it all is the "First Past the Post" (FPTP) voting system (aka Plurality Voting).
-
-Quick review - what is FPTP/Plurality voting?  It's just how our Presidential (and most other US elections') voting system works today:
-
-1. You vote for only one candidate
-2. All votes are totalled up
-3. The person with the most votes wins
-
-OK, that sounds great, right?  YOLO - one man one vote!
-
-## Umm, no.
-
-No?  OK, so what's the problem then?
-
-Lee Drutman, a political scientist and senior fellow at New America [puts it most succinctly](https://washingtonmonthly.com/magazine/january-february-march-2020/can-america-break-free-from-the-two-party-doom-loop/):
-
-> John Adams worried that “a division of the republic into two great parties ... is to be dreaded as the great political evil.”
-> 
-> However, the framers erred was in failing to realize that **simple plurality** [aka "First Past the Post"] elections — used for most state and national contests — **would foster the exact two-party system they wanted to avoid**.
-
-
-If you don't know about the many problems with FPTP, here's a quick video that breaks it all down:
-
-{% include youtube.html id="q6pC5IJirrY" %}
-{:image-caption: class="image-caption" style="text-align: center;"}
-The lesser of two evils effect results in toxic politics
-{: image-caption}
-
-...but it all boils down to:  The Spoiler Effect.
-
-## What is the Spoiler Effect?
-
-With two candidates, you can just pick your favorite of the two - no problem.  But once a third-party enters the race, they will [take more votes](https://www.fairvote.org/don_t_call_third_party_presidential_candidates_spoilers_reform_the_broken_system_instead) from one side or the other - thereby "Spoiling" that candidate's chances.
-
-By only allowing a single choice on our ballots, the spoiler effect will always be a problem in our elections - and keep us trapped in a two-party system duopoly with only two real choices.
-
-The video also introduced the clear solution to this problem - Ranked Choice Voting!  We go into more depth there in the next post, [Power IRV (part 2)](power-irv-pt2.html)
-
-### Other reasons to dump FPTP
-
-It also turns out that dumping FPTP also leads to more positive campaigns and less mudslinging and attacks.  This [has been proven](https://www.fairvote.org/data_on_rcv#research_rcvcampaigncivility) again and again in real elections around the country.
-
-FPTP also incentivizes manipulation and gaming the system.  For example:
-* Republicans (and foreign nations!) [helping Greens](https://www.nytimes.com/2020/09/22/us/politics/green-party-republicans-hawkins.html), and
-* Democrats [helping Tea Partiers](https://www.politico.com/story/2010/08/dems-accused-of-tea-party-tampering-040699)
-  
-...and "stealing" votes from their opponents.
-
-**Ugh.** 😖  No thank you!
-
-FPTP and the Spoiler Effect creates strange bedfellows - and makes focusing on trickery pay off more for candidates than just focusing on the issues and making a better world for us all.
-
-Why force candidates to run highly negative campaigns and sneakily support competitors in order to win?
+OK, so we can all agree that the "First Past the Post" (FPTP) voting system sucks more than the Flowbee and is overdue for an overhaul.
 
 {:images: class="image-container"}
-![Drop it like it's hot](/assets/images/ballot/inline/drop_it_like_its_hot.png){:class="img-responsive" width="300px"}
+![It's sucking my will to live](/assets/images/ballot/inline/garth_flowbee.gif){:class="img-responsive" width="500px"}
 {: images}
 
-Snoop Dogg also wants to dump FPTP
+{:image-caption: class="image-caption" style="text-align: center;"}
+FPTP certainly does suck.
 {: image-caption}
 
-## Dump FPTP!
+OK Mr. Smarty Pants, what's better than FPTP then?
 
-So a quick recap on why we should dump the FPTP system:
+It's Ranked Choice Voting!  Well... or Instant Runoff Voting.  Ummm... or the Alternative Vote.
 
-- We **escape** the two-party doom loop and have real choices as voters
-- You can vote for your **actual** favorite (not just the lesser of two evils)
-- Campaigns are more **positive** - no more mudslinging
-- Candidates can focus on **issues**, not trickery
+![So confused](/assets/images/ballot/inline/confused_guy.png){:class="img-responsive" width="300px"}
+{: images}
+Not confusing at all.
+{: image-caption}
 
-### What's not to love?
+OK, so these are all talking about the same thing.
 
-So now that we're ready to dump FPTP, what should we do instead?  I'm glad you asked - let's learn more about Ranked Choice Voting in:
+Here, we're going to call this approach *Instant Runoff Voting* (IRV), which basically says:
 
-- [Power IRV, or: How I Learned to Stop Worrying and Love Ranked Choice Voting (part 2)](power-irv-pt2.html)
+1. Rank as many candidates as you like in order from highest to lowest
+2. Count all the top votes
+3. If no candidate has more than 50% of the vote:
+  * drop the lowest vote-getter from this round
+  * move any votes for that dropped candidate to the voters' next choice
+4. Repeat until someone has > 50% of all votes (or you only have one candidate left)
 
+![Pick as many as you like](/assets/images/ballot/inline/Your-RCV-Ballot-1.png){:class="img-responsive" width="500px"}
+{: images}
+Rank as many choices as you like.
+{: image-caption}
 
+This video from CGP Grey goes through exactly how IRV (aka the "Alternative Vote") works and how it solves the problem of the Spoiler Effect we went through in [Part 1](why-drop-fptp.html):
+
+{% include youtube.html id="3Y3jE3B8HsE" %}
+
+Wallaby bringing the heat
+{: image-caption}
+
+OK, so either you watched the video, or you want me to give you the 411 here because who watches videos really - [ain't nobody got time for that](https://youtu.be/bFEoMO0pc7k).
+
+![I did my own research](/assets/images/ballot/inline/didmyownresearch.png){:class="img-responsive" width="300px"}
+![ain't nobody got time for that](/assets/images/ballot/inline/angtft.jpg){:class="img-responsive" width="300px"}
+{: images}
+
+The long and the short of it is if you are sick of explaining to your 3rd-party friends that voting for Bernie Sanders, or Jo Jorgensen, or Howie Hawkins, or Vermin Supreme is just throwing away your vote and why can't you just get with the program and realize that your ideological purity isn't making a damn bit of difference.
+
+{% include youtube.html id="mPqRirDphuc" %}
+Go ahead, throw your vote away
+{: image-caption}
+
+OK then - we should just switch over to IRV and everything's all good, right?
+
+If only.
+
+(sorry Queen Lion 😒)
+
+Unfortunately there's a key flaw with basic IRV called the Center Squeeze effect.
+
+IRV is great if your candidate either:
+* has no chance to win, or
+* is certain to win
+  
+Unfortunately it fails **just when** your favorite 3rd-party candidate has enough support to finally get into the final 2 candidates, and instead:
+
+#### **your candidate loses** to the least-favorite opponent.
+
+That's not super obvious, so let's go to another video - this time from the Center for Election Science which explains how our voting system (and IRV) can force you to **betray** your favourite candidate:
+
+{% include youtube.html id="JtKAScORevQ" %}
+I love this video.  **Definitely** watch this one.
+{: image-caption}
+
+### Well, thanks for nothing then.
+{: center}
+
+![Hold up, wait a minute](/assets/images/ballot/inline/hold_up_wait_a_minute.png){:class="img-responsive" width="300px"}
+{: images}
+
+At this point, you might be asking yourself "Isn't this whole series supposed to be about Power IRV?  Why haven't you told me about that at all yet?"
+
+Yes, here it is - the moment you've been waiting for!
+
+So Power IRV is just a tweak to the basic IRV approach that fixes this Center Squeeze problem:
+
+> Power IRV works exactly like regular IRV *until you get down to the last 3 finalists*.
+
+Then the trick is to just pick the winner from those 3 finalists by:
+
+* seeing who would win between each pair of candidates
+* whoever beats both both other candidates head-to-head:  congrats!  You win!
+
+This is how we fix the Center Squeeze problem:  by keeping the Good candidate in the final round of 3, you can see that they beat both Bad and Ideal overall, and so they should be the winner - and they are!
+
+There are a few more nuances and edge cases that we explore in [Power IRV (part 2)](power-irv-pt2.html), but that gives you the basic Power IRV idea.
+
+## Convinced yet?
+
+Yeah you are.  Let's do this.
+
+Tell your friends, tell your Congresspeople, push for Power IRV in your local elections and with voting reform organizations such as [FairVote](https://www.fairvote.org/).
+
+And if you want to learn more and really see how Power IRV works in-depth, please keep going and read:
+
+* [Power IRV - Why Power IRV beats out all other voting systems (part 2)](power-irv-pt2.html)

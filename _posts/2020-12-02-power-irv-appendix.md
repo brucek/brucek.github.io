@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Power IRV, or: How I Learned to Stop Worrying and Love Ranked Choice Voting (appendix)"
+title:  "Power IRV: FAQs and Followups / Full Walkthrough"
 description: "This small tweak to Instant Runoff Voting makes Power IRV the clear winner in the voting reform sweepstakes"
 image:
   path: /assets/images/ballot/inline/distracted_voters.png
@@ -11,22 +11,22 @@ categories: voting
 date: 2020-12-02 23:15:00 -08:00
 ---
 
-This is a followup and the last of this 4-part series on voting reform:
+This is the followup and last post in a series on voting reform:
 
-- [Power IRV (part 1)](power-irv-pt1.html) - Intro: How to Escape the Two-Party Political Doom Loop
-- [Power IRV (part 2)](power-irv-pt2.html) - Power IRV, or: How I Learned to Stop Worrying and Love Ranked Choice Voting
-- [Power IRV (part 3)](power-irv-pt3.html) - Why Power IRV beats out all other voting systems
-- [Power IRV (part 4)](power-irv-pt4.html) - Appendix:  FAQs and Followups (you are here)
+- [Power IRV (intro)](power-irv-intro.html) - How to Escape the Two-Party Political Doom Loop
+- [Power IRV (part 1)](power-irv-pt1.html) - Power IRV, or: How I Learned to Stop Worrying and Love Ranked Choice Voting
+- [Power IRV (part 2)](power-irv-pt2.html) - Why Power IRV beats out all other voting systems
+- [Power IRV (appendix)](power-irv-appendix.html) - Appendix:  FAQs and Followups / Full Walkthrough (you are here)
 
-If you're not sure what our current FPTP voting system is or why it needs to go, get your learn on with [Power IRV (part 1)](power-irv-pt1.html).
+If you're not sure what our current FPTP voting system is or why it needs to go, get your learn on with [Power IRV (intro)](power-irv-intro.html).
 
-If you didn't get the rundown on what Power IRV is and how it works, get a quick overview in [Power IRV (part 2)](power-irv-pt2.html).
+If you didn't get the rundown on what Power IRV is and how it works, get a quick overview in [Power IRV (part 1)](power-irv-pt1.html).
 
-The meaty bit is in [Power IRV (part 3)](power-irv-pt3.html) - at a minimum read this if you haven't already.
+The meaty bit is in [Power IRV (part 2)](power-irv-pt2.html) - at a minimum read this if you haven't already.
 
 # FAQs and Followups
 
-This is a list of FAQs and followups for completeness with a other voting methods and questions we didn't get to in [Power IRV (part 3)](power-irv-pt3.html).
+This is a list of FAQs and followups for completeness with a other voting methods and questions we didn't get to in [Power IRV (part 2)](power-irv-pt2.html).
 
 There's a lot of detail and math going on here, so don't feel like you need to dive in unless you're *really* into it.
 
@@ -155,7 +155,7 @@ Let's compare even more voting methods (from this [Comparison of preferential el
 Power IRV looking Real Good in there
 {: image-caption}
 
-So the tiebreaker approach we are using is **almost** the [Tideman / Ranked Pairs method](https://en.wikipedia.org/wiki/Ranked_pairs), but it is much simpler since we just pick the highest vote-getter out of the 3 finalists.
+So the tiebreaker approach we are using is **almost** the same as something called the [Tideman / Ranked Pairs method](https://en.wikipedia.org/wiki/Ranked_pairs), but it is much simpler since we just pick the highest vote-getter out of the 3 finalists.
 
 After digging all around the internet, I haven't been able to find any other method using this approach (since it doesn't work well for more than 3 candidates), but please shout out if you know of one...
 
@@ -163,7 +163,7 @@ Here are descriptions of [a bunch more Condorcet tie-breakers](http://www.cs.ang
 
 You can also [test them live here](http://www.cs.angelo.edu/~rlegrand/rbvote/calc.html) courtesy of Prof. Rob LeGrand.  Our ballot shorthand matches his so you can just copy/paste any of these ballots to try any other methods too.
 
-### Power IRV vs other tiebreakers
+### Power IRV's "top vote-getter" vs other tiebreaker methods
 
 Let's try this example:
 
@@ -248,9 +248,9 @@ I haven't been able to figure out yet if there is hard logic behind why these me
 
 **==> winner:  C (least bad)**
 
-Basically, it still feels like C is the best choice here.  If you just pick the head-to-head winner, you fall back into the Center Squeeze situation and don't look at the larger picture:  who can bring the most people together?
+Basically, it still feels like C is the best choice here.  If you just pick the head-to-head winner, you fall back into the Center Squeeze situation and don't look at the larger picture:  who can bring the most people together and form the strongest coalition?
 
-Power IRV does exactly that (and only in these weird tiebreaker situations) - it is a clear winner here.
+Power IRV does exactly that - it is a clear winner here (and this tiebreaker only applies in these weird Condorcet impasses - remember, Power IRV is stronger in all normal circumstances as well).
 
 <br/>
 
