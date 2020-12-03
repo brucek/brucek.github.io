@@ -1,6 +1,6 @@
 <div class="youtube-wrapper">
   <iframe
-    src="https://www.youtube.com/embed/{{ include.id }}"
+    src="https://www.youtube.com/embed/{{ include.id }}?start={{ include.t | default: 0 }}"
     width="{{ include.width | default: 500 }}"
     height="{{ include.height | default: 300 }}"
     frameborder="0"
