@@ -3,20 +3,25 @@ layout: post
 title:  "Intro: How to Escape the Two-Party Political Doom Loop"
 description: "First-Past The Post voting (you vote for only one candidate) is the root cause of our political dysfunction, 2-party lock-in, and negative and obstructionist campaigning and governance.  Away with you!"
 image:
-  path: /assets/images/ballot/inline/drop_it_like_its_hot.png
-  height: 600
-  width: 600
+  path: /assets/images/ballot/inline/distracted_voters.png
+  height: 662
+  width: 988
 author: brucek
 categories: voting
 ---
 This is the first of a 4-part series on voting reform:
 
 - [Power IRV (part 1)](power-irv-pt1.html) - Intro: How to Escape the Two-Party Political Doom Loop (you are here)
-- [Power IRV (part 2)](power-irv-pt2.html) - Power IRV: The best alternative to FPTP
+- [Power IRV (part 2)](power-irv-pt2.html) - Power IRV, or: How I Learned to Stop Worrying and Love Ranked Choice Voting
 - [Power IRV (part 3)](power-irv-pt3.html) - Why Power IRV beats out all other voting systems
 - [Power IRV (part 4)](power-irv-pt4.html) - Appendix:  FAQs and Followups
 
 If you already know about FPTP voting and why dropping it is the best thing we can do to escape the two-party doom loop and fix politics & government, jump ahead to [Power IRV (part 2)](power-irv-pt2.html).
+
+<br/>
+
+-----------
+<br/>
 
 ## What's the problem?
 
@@ -64,7 +69,13 @@ The video also introduced the clear solution to this problem - Ranked Choice Vot
 
 It also turns out that dumping FPTP also leads to more positive campaigns and less mudslinging and attacks.  This [has been proven](https://www.fairvote.org/data_on_rcv#research_rcvcampaigncivility) again and again in real elections around the country.
 
-FPTP also incentivizes manipulation and gaming the system.  For example:  [Republicans (and foreign nations!) helping Greens](https://www.nytimes.com/2020/09/22/us/politics/green-party-republicans-hawkins.html) and [Democrats helping Tea Partiers](https://www.politico.com/story/2010/08/dems-accused-of-tea-party-tampering-040699) and "stealing" votes from their opponents.  **Ugh.** 😖  No thank you!
+FPTP also incentivizes manipulation and gaming the system.  For example:
+* Republicans (and foreign nations!) [helping Greens](https://www.nytimes.com/2020/09/22/us/politics/green-party-republicans-hawkins.html), and
+* Democrats [helping Tea Partiers](https://www.politico.com/story/2010/08/dems-accused-of-tea-party-tampering-040699)
+  
+...and "stealing" votes from their opponents.
+
+**Ugh.** 😖  No thank you!
 
 FPTP and the Spoiler Effect creates strange bedfellows - and makes focusing on trickery pay off more for candidates than just focusing on the issues and making a better world for us all.
 
@@ -90,6 +101,6 @@ So a quick recap on why we should dump the FPTP system:
 
 So now that we're ready to dump FPTP, what should we do instead?  I'm glad you asked - let's learn more about Ranked Choice Voting in:
 
-- [Power IRV (part 2)](power-irv-pt2.html) - The best alternative to FPTP
+- [Power IRV, or: How I Learned to Stop Worrying and Love Ranked Choice Voting (part 2)](power-irv-pt2.html)
 
 

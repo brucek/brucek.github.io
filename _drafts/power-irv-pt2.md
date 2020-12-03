@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Power IRV (part 2), or: How I Learned to Stop Worrying and Love Ranked Choice Voting"
+title:  "Power IRV, or: How I Learned to Stop Worrying and Love Ranked Choice Voting (part 2)"
 description: "This small tweak to Instant Runoff Voting makes Power IRV the clear winner in the voting reform sweepstakes"
 image:
   path: /assets/images/ballot/inline/distracted_voters.png
@@ -12,12 +12,17 @@ categories: voting
 
 This is the second of a 4-part series on voting reform:
 
-- [Power IRV (part 1)](power-irv-pt1.html) - Intro: Why Dropping First-Past The Post Voting is the Right Move Now
-- [Power IRV (part 2)](power-irv-pt2.html) - Power IRV: The best alternative to FPTP (you are here)
+- [Power IRV (part 1)](power-irv-pt1.html) - Intro: How to Escape the Two-Party Political Doom Loop
+- [Power IRV (part 2)](power-irv-pt2.html) - Power IRV, or: How I Learned to Stop Worrying and Love Ranked Choice Voting (you are here)
 - [Power IRV (part 3)](power-irv-pt3.html) - Why Power IRV beats out all other voting systems
 - [Power IRV (part 4)](power-irv-pt4.html) - Appendix:  FAQs and Followups
 
 If you're not sure what our current FPTP voting system is or why it needs to go, get your learn on with [Power IRV (part 1)](power-irv-pt1.html).  Otherwise, read on!
+
+<br/>
+
+-----------
+<br/>
 
 ## The best alternative to FPTP
 
@@ -122,4 +127,4 @@ Tell your friends, tell your Congresspeople, push for Power IRV in your local el
 
 And if you want to learn more and really see how Power IRV works in-depth, please keep going and read:
 
-* [Power IRV (part 3)](power-irv-pt3.html) - Why Power IRV beats out all other voting systems.
+* [Power IRV - Why Power IRV beats out all other voting systems (part 3)](power-irv-pt3.html)
